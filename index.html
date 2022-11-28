@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Learn With Ideal Coding</title>
+    <style>
+      body {
+        margin-bottom: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- BEM methodology -->
+    <!-- 
+        Block
+          1. a meaningful container/parent
+          2. use dash for more one word
+           syntax: card-section
+        Element
+          1. not a meaningful container but children of the block
+          2. use dash for more one word
+          3. use double underscore symbol for naming
+           syntax: block__front
+        Modifier
+          1. modify block/element (modify css style)
+          2. use dash for more one word
+          3. use double hyphen symbol for naming
+           syntax: block/element--modifier
+
+     -->
+    <!-- products section html code start -->
+    <section class="products-section">
+      <div class="container">
+        <div class="text-center margin-bottom">
+          <h2 class="heading">Products</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__layout card__layout--front">
+                <div class="card__image card__image--1"></div>
+                <div class="card__body">
+                  <h5 class="card__title">Dell Laptop</h5>
+                  <ul class="card__list-group">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__layout card__layout--back">
+                <div class="card__layout-back-body">
+                  <p class="card__price">Only $500</p>
+                  <p class="card__quantity">Quantity: 9</p>
+                  <a href="#" class="btn btn--black">Add to cart!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__layout card__layout--front">
+                <div class="card__image card__image--1"></div>
+                <div class="card__body">
+                  <h5 class="card__title">Dell Laptop</h5>
+                  <ul class="card__list-group">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__layout card__layout--back">
+                <div class="card__layout-back-body">
+                  <p class="card__price">Only $500</p>
+                  <p class="card__quantity">Quantity: 9</p>
+                  <a href="#" class="btn btn--black">Add to cart!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__layout card__layout--front">
+                <div class="card__image card__image--1"></div>
+                <div class="card__body">
+                  <h5 class="card__title">Dell Laptop</h5>
+                  <ul class="card__list-group">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__layout card__layout--back">
+                <div class="card__layout-back-body">
+                  <p class="card__price">Only $500</p>
+                  <p class="card__quantity">Quantity: 9</p>
+                  <a href="#" class="btn btn--black">Add to cart!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="card">
+              <div class="card__layout card__layout--front">
+                <div class="card__image card__image--1"></div>
+                <div class="card__body">
+                  <h5 class="card__title">Dell Laptop</h5>
+                  <ul class="card__list-group">
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__layout card__layout--back">
+                <div class="card__layout-back-body">
+                  <p class="card__price">Only $500</p>
+                  <p class="card__quantity">Quantity: 9</p>
+                  <a href="#" class="btn btn--black">Add to cart!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products section html code end -->
+    <!-- <div class="box">Div</div> -->
+  </body>
+</html>
